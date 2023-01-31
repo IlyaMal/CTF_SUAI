@@ -1,0 +1,269 @@
+.bodytask{
+    font-family: "Roboto", sans-serif;
+}
+
+.bodytasklist{
+    font-family: "Roboto", sans-serif;
+}
+
+.container{
+    max-width: 1370px;
+    margin: 0 auto;
+}
+
+.bt__content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 65px;
+}
+
+.bt__title{
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.bt__description{
+    font-size: 36px;
+    font-weight: 100;
+    margin-top: 90px;
+    line-height: 45px;
+}
+
+.bt__forms{
+    display: flex;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.bt__files{
+
+}
+
+@media(max-width: 462px){
+    .bt__b1{
+        margin-bottom: 20px;
+    }
+}
+
+@media(max-width: 1129px){
+    .bt__files{
+        margin-bottom: 20px;
+    }
+}
+
+.bt__actions{
+
+}
+
+@media(max-width: 668px){
+    .bt__input{
+        margin-bottom: 20px;
+    }
+}
+
+.bt__b1{
+    width: 255px;
+    height: 63px;
+    background-color: #34495E;
+    font-size: 32px;
+    border-radius: 7px;
+    font-weight: 100;
+    color: white;
+    margin-right: 40px;
+}
+
+.bt__b2{
+    width: 163px;
+    height: 63px;
+    background-color: #34495E;
+    font-size: 32px;
+    border-radius: 7px;
+    font-weight: 100;
+    color: white;
+}
+
+.bt__input{
+    width: 442px;
+    height: 63px;
+    border: 2px solid #5C5C5C;
+    border-radius: 7px;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media(max-width: 442px){
+    .bt__input{
+        width: 200px;
+    }
+}
+
+.bt__b3{
+    width: 182px;
+    height: 72px;
+    border: 2px solid #62CB31;
+    border-radius: 22px;
+    font-size: 30px;
+    color: #62CB31;
+    background-color: white;
+    margin-left: 40px;
+}
+
+.btl__content{
+    margin-top: 18px;
+}
+
+.btl__settings{
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+}
+
+.btl__simage{
+    margin-bottom: 2%;
+}
+
+.btl__list{
+    display: flex;
+    width: 1159px;
+    height: 64px;
+    border: 1px solid #ACACAC;
+    border-radius: 12px;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 26px;
+    justify-content: space-around;
+    margin-right: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.btl__image{
+    width: 35px;
+    height: 35px;
+}
+
+.btl__point{
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.btl__slide{
+    width: 38px;
+    height: 0px;
+    left: 924px;
+    top: 100px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.btl__slidelast{
+    width: 38px;
+    height: 0px;
+    left: 924px;
+    top: 100px;
+    border: 1px solid #000000;
+    transform: rotate(90deg);
+}
+
+.btl__cards{
+    margin-top: 77px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.btl__card{
+    width: 444px;
+    height: 252px;
+    border: 1px solid #ACACAC;
+    border-radius: 11px;
+}
+
+.btl__card_content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 33px;
+    margin-top: 27px;
+}
+
+.btl__title{
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 28px;
+}
+
+.btl__description{
+    font-size: 24px;
+    font-weight: 100;
+    margin-bottom: 47px;
+}
+
+.btl__actions{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btl__points{
+    font-size: 23px;
+    font-weight: normal;
+
+}
+
+.btl__getcard{
+    margin-right: 33px;
+}
+
+@media (max-width: 1078px) {
+    .btl__list{
+        height: 128px;
+    }
+
+    .btl__slidelast{
+        display: none;
+    }
+
+    .btl__settings{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 809px) {
+    .btl__list{
+        height: 128px;
+    }
+
+    .btl__slidelast{
+        display:flex;
+    }
+}
+
+@media (max-width: 605px) {
+    .btl__list{
+        height: 200px;
+    }
+}
+
+@media (max-width: 394px) {
+    .btl__list{
+        height: 400px;
+    }
+}
+
+@media (max-width: 445px) {
+    .btl__list{
+        height: 600px;
+        flex-direction: column;
+        align-items:flex-start;
+        padding-bottom: 10px;
+    }
+
+    .btl__slide{
+        display: none;
+    }
+
+    .btl__slidelast{
+        display: none;
+    }
+}
